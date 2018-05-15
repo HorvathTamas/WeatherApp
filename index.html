@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Show the Local Weather</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://www.w3schools.com/w3css/4/w3.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+
+<link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
+
+
+<div class = "container">
+  <div class = "row">
+    <div class = "col-xs-12" id = "tittle">
+      <h1>Weather App</h1>
+    </div>
+  </div>
+  <div class="row" id="refreshAnimation">
+   <div class="col-xs-12">
+    <p><i class="w3-jumbo w3-spin fa fa-refresh"></i></p>
+   </div>
+   <div class="col-xs-12">
+    <p>Loading...</p>
+   </div>
+   </div>
+  <div class = "container hidden" id = "data">
+  <div class = "row">
+    <div class = "col-xs-3">
+    </div>
+    <div class = "col-xs-2" id = "descr">
+    </div>
+    <div class = "col-xs-2" id = "icon">
+    </div>
+    <div class = "col-xs-2" id = "temp">
+    </div>
+    <div class = "col-xs-3">
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "col-xs-3">
+    </div>
+    <div class = "col-xs-6" id = "windSpeed">
+    </div>
+    <div class = "col-xs-3">
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "col-xs-3">
+    </div>
+    <div class = "col-xs-6" id = "location">
+    </div>
+    <div class = "col-xs-3">
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "col-xs-3">
+    </div>
+    <div class = "col-xs-2" id = "cels">
+      <p>Celsius</p>
+    </div>
+    <div class = "col-xs-2" id = "tempSwitch">
+      <label class="switch">
+  <input type="checkbox" id="myCheck"  onclick="myFunction()">
+  <span class="slider round"></span>
+</label>
+    </div>
+    <div class = "col-xs-2" id = "fahr">
+      <p>Fahrenheit</p>
+    </div>
+    <div class = "col-xs-3">
+    </div>
+  </div>
+  </div>
+  <footer class="text-center">
+    <hr>
+    <p class="white-text">Coded by <a href="https://www.freecodecamp.org/horvathtamas" target="_blank">Horvath Tamas</a>.</p>
+  </footer>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
